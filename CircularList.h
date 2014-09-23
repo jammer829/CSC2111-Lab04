@@ -173,9 +173,9 @@ void CircularList<T>::remove(int index)
 		loc_pos = index;
 		
 		delete curr;
+		sze--;
 	    
 	   }
-      sze--;
 	  
    } 
 }
